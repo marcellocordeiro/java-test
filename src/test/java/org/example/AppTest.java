@@ -16,7 +16,6 @@ public class AppTest
     @Test
     public void definitelyNotFlaky()
     {
-        Random random = new Random();
-        assertTrue( random.nextDouble() > 0.3 );
+        assertTrue( false );
     }
 }
